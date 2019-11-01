@@ -1,0 +1,547 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f0f0f0;
+}
+
+#header {
+	padding-top: 63px; 
+}
+
+#container {
+	margin: 0 auto;
+	width: 1366px;
+}
+#slider_main {
+	background: url(img/slider-img.png);
+	height: 800px;
+	position: relative;
+}
+
+#logo {
+	display: inline-block;
+	padding-top: 10px;
+}
+
+.padding-site {
+	padding-right: 98px;
+	padding-left: 98px;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+#main_menu {
+	float: right;
+	height: 48px;
+	color: #8c8c8c;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 48px;
+}
+
+.menu-list {
+	float: left;
+	list-style-type: none;
+}
+
+.menu-link {
+	text-decoration: none;
+	color: #8c8c8c;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 10px 13px;
+}
+
+.menu-link:hover {
+	color: #212121;
+    font-weight: 700;
+    border-bottom: 2px solid #212121;
+}
+
+
+.text{
+	font-size: 14px;
+	font-weight: 300;
+	color: #6c6c6c;
+}
+
+.button {
+	/* Style for "Order Us" */
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #212121;
+	letter-spacing: 3.6px;
+	width: 212px;
+	height: 45px;
+	line-height: 45px;
+	box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+	border-radius: 23px;
+	background-color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+
+}
+.button > img{
+	position: relative;
+    top: 15px;
+    left: -30px;
+}
+
+.button:hover {
+	background: #f5f2f0;
+}
+
+.circle {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-color: #c7c7c7;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.circle:hover {
+	background-color: #212121;
+}
+
+.circle-active{
+	width: 40px;
+	height: 40px;
+	background-color: #212121;
+	margin-bottom: 0;
+}
+
+.slider-trending{
+	padding-top: 288px;
+	height: 13px;
+	color: #43a047;
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+	/* Text style for "TRENDING" */
+	color: #43a047;
+	letter-spacing: 1.8px;
+}
+.slider-h2 {
+	/* Style for "Fishnet Ch" */
+	padding-top: 22px;
+	padding-right: 15px;
+	padding-top: 22px;
+	height: 43px;
+	color: #212121;
+	font-size: 62px;
+	line-height: 72px;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+.text {
+	padding-top:34px;
+	padding-bottom: 32px; 
+	width: 458px;
+}
+
+.pagination {
+	position: absolute;
+	bottom: 19px;
+	width: 1170px;
+	text-align: center;
+	margin:5px;
+}
+
+#new_products {
+	height: 371px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	border: 1px solid #e3e3ea;
+	background: white;
+}
+
+.left {
+	float: right;
+}
+
+.header_new_products_list-active{
+	height: 27px;
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 36px;
+	font-weight: 700;
+	text-decoration: none;	
+	border-bottom: 4px solid;
+    padding-bottom: 8px;
+}
+
+.header_new_products_list{
+	height: 25px;
+	color: #6c6c6c;
+	font-family: Montserrat;
+	font-size: 36px;
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: 1px solid;
+    padding-bottom: 10px;
+	}
+
+.header_new_products_link {
+	height: 13px;
+	color: #212121;
+	color: #6c6c6c;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+/* Text style for "explore al" */
+	color: #212121;
+	letter-spacing: 3.6px;
+    text-decoration: none;
+    padding-bottom: 8px;
+    margin-right: 50px;
+    margin-top:20px;
+}
+
+#fishnet_chair{
+	height: 270px;
+	width: 270px;
+	border: 1px solid #e3e3ea;
+	margin-top: 50px;
+}
+
+
+
+.bg_cicle{
+	position: relative;
+    left: 111px;
+    top: 60px;
+  
+}
+
+.gal {
+	position: relative;
+    top: 41px;
+    left: 73px;
+}
+
+#fishnet_chair > p{
+	height: 33px;
+	color: #6c6c6c;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21.91px;
+	padding: 23px 29px 68px 29px;
+	text-align: center;
+}
+
+#fishnet_chair > #text_fishnet_chair {
+	height: 17px;
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 29.88px;
+	text-align: center;
+	padding-bottom: 0;
+    margin-top: 40px;
+}
+/* #menu_new_products{
+    border-bottom: 1px solid;
+    padding-bottom: 9px;
+    width: auto;
+} */
+.gal_small {
+	float: right;
+	position: relative;
+    right: -190px;
+    top: 25px;
+}
+
+ .float_left_img {
+	width: 270px;
+	height: 270px;
+	margin-top: 50px;
+	border: 1px solid #e3e3ea;
+} 
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+.esclusive_products_left {
+	float:left;
+	width: 633px;
+	height: 427px;
+	background-image: url(img/promo-img1.png);
+	padding-left: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 256px;
+}
+
+.esclusive_products_right {
+	width: 633px;
+	height: 427px;
+	background-image: url(img/promo-img.png);
+	padding-bottom: 256px;
+	padding-left: 50px;
+	float: right;
+}
+
+.slider-text_3block > .slider-trending {
+	color:#2b8ee5;
+}
+
+.slider-text_3block > .slider-h2{
+	/* Style for "Fishnet Ch" */
+	height: 28px;
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+#block4 {
+	height: 999px;
+	background: white;
+	padding:119px 98px 0 98px;
+
+}
+
+.header_block4 {
+	margin-bottom: 64px;
+}
+
+#block4 span.text {
+	height: 35px;
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.img_block4 {
+	width: 370px;
+	height: 370px;
+	margin-bottom:30px;
+}
+
+#block5 {
+	background-image: url(img/table.png);
+	height: 800px;
+	padding-left: 98px;
+	position:relative;
+}
+
+#block5 .slider-trending{
+	color:#e53935;
+	
+}
+
+.pagination_block5{
+	position: absolute;
+	bottom: 19px;
+	width: 1170px;
+	text-align: center;
+	margin:5px;
+}
+
+#block6 {
+	padding: 120px 98px;
+	background: white;
+}
+
+.block6_left {
+	width: 570px;
+	height: 570px;
+	float: left;
+    margin-right: 30px;
+}
+
+#block6 .flex > img {
+	margin-bottom: 30px;
+}
+.slider-text_6block {
+	width: 541px;
+	height: 570px;
+	float: left;
+    margin-right: 30px;
+    background-image: url(img/block6/product-1-lg.png);
+    padding-left: 30px;
+    
+}
+.slider-text_6block > .slider-h2{
+	height: 28px;
+color: #212121;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+}
+.slider-text_6block > .slider-trending {
+	color:#2b8ee5;
+}
+
+.slider-text_6block > .text {
+	width: 332px;
+}
+#block6 .slider-trending {
+
+    padding-top: 186px;
+} 
+
+#block7 {
+	background-image: url(img/back7-img.png);
+	height: 396px;
+	padding: 120px 98px 0 98px;
+	background-repeat: no-repeat;
+}
+
+.mobile {
+	height: 13px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 13px;
+	text-transform: uppercase;
+	/* Text style for "mobile app" */
+	color: #6c6c6c;
+	letter-spacing: 1.8px;
+	margin-bottom: 10px;
+}
+
+.hh {
+	width: 475px;
+	height: 116px;
+	color: #212121;
+	font-size: 62px;
+	font-weight: 200;
+	line-height: 63px;
+	text-transform: uppercase;
+	margin-bottom: 26px;
+}
+
+.text_block7 {
+	width: 435px;
+	height: 21px;
+	color: #6c6c6c;
+	font-family: Montserrat;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-bottom: 33px;
+}
+
+#footer {
+	padding:119px 98px 20px 98px;
+	background:#f6f6f6;
+}
+
+.float_left {
+	float: left;
+
+}
+
+.footer_h{
+	height: 13px;
+	color: #6c6c6c;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	/* Text style for "C, ontact" */
+	letter-spacing: 1.8px;
+	margin-bottom:25px;
+	}
+
+.footer_right {
+	width: 373px;
+}
+
+.footer_center {
+	width: 423px;
+}
+
+.footer_left {
+	width: 323px;
+}
+
+.text_bold > a {
+	height: 62px;
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	/* Text style for "Sales term" */
+	letter-spacing: 0.7px;
+}
+ .text_bold {
+	width: 194px;
+}
+
+.text_bold > a {
+	text-decoration: none;
+}
+.center_right {
+	float: right;
+}
+
+.footer_right {
+	float: right;
+}
+
+.footer_bottom {
+	clear:both;
+}
+
+.footer_text {
+	font-size: 14px;
+	line-height: 22px;
+}
+.footer_bottom {
+	display: flex;
+	font-size: 12px;
+	padding-top:40px;
+	    justify-content: space-between;
+	
+}
+
+.bottom_h {
+	height: 13px;
+	color: #6c6c6c;
+	font-family: Montserrat;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	/* Text style for "C, ontact" */
+	letter-spacing: 1.8px;
+	margin-bottom:25px;
+}
+
+input[type=text] {
+	height: 20px;
+    padding: 10px;
+    width: 328px;
+    margin-top: 25px;
+}

@@ -1,0 +1,170 @@
+body {
+	background:none;
+}
+
+#slider_main {
+	height: 800px;
+	position: relative;
+	background:none;
+}
+
+.menu-link: hover {
+    color: #212121;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 2px solid #212121;
+
+   }
+
+   .menu-link {
+	border-bottom: 2px solid white;
+}
+
+.nav {
+	    background: #f0f0f0;
+	    min-height: 70px;
+	    width: 100%;
+	        text-align: center;
+	   /*  display: flex;
+	   flex-direction: row;
+	   	justify-content: space-between; */
+}
+
+.nav-bar {
+	display: inline-block;
+	height: 13px;
+	color: #7e7e7e;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 28px 1%;
+	letter-spacing: 1.8px;
+
+}
+
+.nav-bar > a {
+	text-decoration: none;
+	color: #7e7e7e;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.nav-bar > a:hover {
+	color: black;
+}
+
+.linc-description {
+	display: inline-block;
+
+}
+
+.description{
+    width: 570px;
+    text-align: center;
+}
+
+.description-right {
+	margin-left: 710px;
+	text-align: center;
+	margin-top: 115px;
+	width: 570px;
+	padding-right: 138px;
+
+}
+
+.h2_description-right {
+	color: #212121;
+	font-family: Montserrat;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+
+.description-left{
+	float: left;
+	margin-left:125px;
+}
+
+.slider-trending-description {
+	color: #e53935;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 48.02px;
+text-transform: uppercase;
+/* Text style for "Hot Deal" */
+letter-spacing: 1.8px;
+}
+
+.price {
+
+	height: 57px;
+	color: #212121;
+	/* font-family: Gotham; */
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 48.02px;
+	/* Text style for "" */
+	font-size: 48px;
+	/* Text style for "36.7" */
+	font-size: 72px;
+	text-transform: uppercase;
+	margin-top:36px;
+	margin-bottom: 36px;
+}
+
+.price > span {
+	font-size: 36px;
+}
+
+.button {
+	width: 510px;
+    /* height: 71px; */
+    padding-top: 23px;
+    padding-bottom: 3px;
+    background: #f44336;
+    top: 10px;
+    left: -164px;
+    font-size: 22px;
+	font-weight: 700;
+	line-height: 24.01px;
+	text-transform: uppercase;
+	/* Text style for "Order Us" */
+	letter-spacing: 4.4px;
+	color: #ffffff;
+	font-family: Montserrat;
+	margin-bottom:73px;
+}
+.button > img {
+	top:0;
+    left: -155px;
+}
+
+.description-text {
+	width: 499px;
+	margin-left:40px;
+	text-align: justify;
+	color: #212121;
+	/* font-family: Gotham; */
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24.01px;
+	/* Text style for "The majest" */
+	letter-spacing: 0.4px;
+}
+
+#footer {
+	height: 260px;
+}
+
+#slider_main {
+	height: 135px;
+}
+
+#block4{
+	height: auto;
+}

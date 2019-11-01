@@ -1,0 +1,58 @@
+body {
+	background:none;
+}
+
+#header {
+	padding: 63px 98px 44px 98px;
+}
+
+.menu-link {
+	 border-bottom: 2px solid #f5f5f5 !important;
+}
+
+.menu-link:hover {
+	 border-bottom: 2px solid black !important;
+}
+
+#slider_main {
+	height: 366px;
+	position: relative;
+	background:none;
+	background-color: #f5f5f5;
+}
+
+#header > p{
+	color: #212121;
+    font-family: "Montserrat - Thin";
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    margin: 140px 0 40px 0;
+
+}
+
+#header{
+	background-color: #f5f5f5;
+}
+
+.nav > ul {
+	text-align: left;
+	background: white;
+}
+
+.nav-bar {
+	border-bottom: 2px solid white;
+}
+
+
+.nav-bar:hover {
+	border-bottom: 2px solid black;
+}
+
+.block_product {
+	padding: 25px 98px 44px 98px;
+}
+
+#block4 {
+	padding: 0;
+}
